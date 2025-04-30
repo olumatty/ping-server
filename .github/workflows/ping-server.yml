@@ -2,8 +2,8 @@ name: Ping Server
 
 on:
   schedule:
-    - cron: '* * * * *'     # every 1 minute
-  workflow_dispatch:         # allow manual run
+    - cron: '* * * * *'  # every 1 minute
+  workflow_dispatch:      # allow manual run
 
 jobs:
   ping:
